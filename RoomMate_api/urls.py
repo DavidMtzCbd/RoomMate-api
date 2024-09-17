@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from sistema_fcc_api.views import bootstrap
-from sistema_fcc_api.views import users
-from sistema_fcc_api.views import auth
+from RoomMate_api.views import bootstrap
+from RoomMate_api.views import users
+from RoomMate_api.views import auth
 
 urlpatterns = [
     #Version

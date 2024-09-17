@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'rest_auth',
     'corsheaders',
-    'sistema_fcc_api',
+    'RoomMate_api',
 ]
 
 MIDDLEWARE = [
@@ -67,7 +67,7 @@ CORS_ORIGIN_REGEX_WHITELIST = [
     'http://localhost:4200',
 ]
 
-ROOT_URLCONF = 'sistema_fcc_api.urls'
+ROOT_URLCONF = 'RoomMate_api.urls'
 
 TEMPLATES = [
     {
@@ -85,7 +85,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'sistema_fcc_api.wsgi.application'
+WSGI_APPLICATION = 'RoomMate_api.wsgi.application'
 
 
 # Database
